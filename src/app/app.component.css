@@ -1,0 +1,7 @@
+.example-container {
+  height: calc(100vh - 64px);
+  margin: 0px;
+}
+
+.sidenav {
+}

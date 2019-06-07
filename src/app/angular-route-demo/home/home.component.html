@@ -1,0 +1,34 @@
+<!--<p>
+  I am the homepage
+</p>-->
+<div class="left left-aside">
+   <div class="navbar">
+     <ul>
+       <li>
+         <div><a routerLink="/home/solution" routerLinkActive="aside-active" class="aside-title">Solution</a></div>
+       </li>
+       <li>
+         <div><a routerLink="/home/about" routerLinkActive="aside-active" class="aside-title">About us</a></div>
+       </li>
+     </ul>
+   </div>
+</div>
+<div class="left content">
+   <router-outlet></router-outlet>
+</div>
+<!--<div class="left">
+  <ol>
+    <li>
+      <div>
+        <h4>Use js jump routing</h4>
+        <button (click)="toNewsWithoutParam()">Go to the news page</button>
+      </div>
+    </li>
+    <li>
+      <div>
+        <h4>Use js jump routing - with parameters</h4>
+        <button (click)="toNewsWithParam()">Go to the news page</button>
+      </div>
+    </li>
+  </ol>
+</div>-->

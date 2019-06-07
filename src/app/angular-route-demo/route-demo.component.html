@@ -1,0 +1,14 @@
+<div class="wrapper">
+  <a [routerLink]="['/route-demo/e1']"  routerLinkActive="active" class="nav-title home">Welcome</a> |
+  <a [routerLink]="['/route-demo/e1','home']"  routerLinkActive="active" class="nav-title home">Homepage</a>
+  <a [routerLink]="['/route-demo','news']"  routerLinkActive="active" class="nav-title news">News</a>
+  <a [routerLink]="['/route-demo','admin']"  routerLinkActive="active" class="nav-title ">Administrator rights</a>
+  <div class="chat-nav">
+    <a (click)="startChat()">Start Chatting</a>
+    <a (click)="endChat()">End Chat</a>
+  </div>
+
+</div>
+<div class="line"></div>
+<router-outlet name="auxi"></router-outlet>
+<router-outlet></router-outlet>
